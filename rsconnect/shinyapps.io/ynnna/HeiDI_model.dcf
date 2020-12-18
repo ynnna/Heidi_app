@@ -5,8 +5,8 @@ account: ynnna
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 810034
-bundleId: 4006577
+bundleId: 4006589
 url: https://ynnna.shinyapps.io/HeiDI_model/
-when: 1608312527.12117
+when: 1608312713.03417
 asMultiple: FALSE
 asStatic: FALSE
