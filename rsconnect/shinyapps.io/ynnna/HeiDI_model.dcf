@@ -1,0 +1,12 @@
+name: HeiDI_model
+title: HeiDI_model
+username:
+account: ynnna
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 810034
+bundleId: 4005457
+url: https://ynnna.shinyapps.io/HeiDI_model/
+when: 1608289903.67252
+asMultiple: FALSE
+asStatic: FALSE

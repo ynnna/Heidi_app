@@ -1,0 +1,187 @@
+/* Header bar */
+
+.skin-red .main-header .navbar {
+    background-color: #d73925; /* HeiDI red */
+}
+
+.main-header .logo {
+    -webkit-transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    display: block;
+    float: left;
+    height: 50px;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    width: 230px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 63px;
+    padding: 5px 10px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #ffffff;
+    cursor: default;
+    background-color: #b3b3b3;
+    border: 2px solid  #d73925; /* HeiDI red */
+    border-bottom-color: transparent;
+}
+
+menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #d73925; /* HeiDI red */
+    outline: 0;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #b73333;
+    outline: 0;
+}
+
+/* boxes */
+.box-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+.form-group {
+    margin-bottom:1px;
+}
+
+.help-block {
+    margin-top:1px;
+    margin-bottom: 1px;
+}
+
+.irs-from, .irs-to, .irs-single {
+   background: #d73925; /* HeiDI red */
+}
+
+.irs-bar {
+    background: #d73925; /* HeiDI red */
+    border-top: 1px solid #969696;
+    border-bottom: 1px solid #969696;
+}
+.irs-bar-edge {
+    background: #d73925; /* HeiDI red */
+    border: 1px solid #969696;
+    border-right: 0;
+
+}
+
+label {
+    text-align: left;
+}
+
+.control-label  {
+  text-align: left;
+}
+
+.skin-red .left-side, .skin-red .main-sidebar, .skin-red .wrapper {
+    background-color: #ecf0f5;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 2px 2px 0 0;
+    color: #d73925; /* HeiDI red */
+}
+
+nav-tabs-custom>.nav-tabs>li.active:hover>a, .nav-tabs-custom>.nav-tabs>li.active>a {
+    background-color: #fff;
+    color: #d73925; /* HeiDI red */
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.content {
+    min-height: 250px;
+    padding: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+body {
+    font-size: 14px;
+    text-align: justify;
+    padding: 4px;
+}
+
+body.skin-red.sidebar-collapse {
+  padding: 0;
+}
+
+
+.box {
+    box-shadow: 0;
+    border-top: 0;
+}
+
+.shiny-input-container:not(.shiny-input-container-inline) {
+    max-width: 100%;
+}
+
+.box-body {
+    padding:1px;
+    font-size: 14px;
+    text-align: center;
+}
+#code_style {
+  font-family: Garamond, serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #ebebeb; /* grey*/
+  padding: 0px 4px 0px 4px; /* top, right, bottom, left*/
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="style_tab_info.css">
+</head>
+<body>
+
+<h2>Compound conditioning and the pooled error term</h2>
+
+
+<p> These simulations accompany the ones summarrised in
+<a href="https://psycnet.apa.org/doiLanding?doi=10.1037%2Frev0000196"><span class="citation">Honey,
+   Dwyer and Iliescu (2020a;</span></a> pp 840-841; Figure 7).
+
+
+   <a href="https://psycnet.apa.org/doiLanding?doi=10.1037/0097-7403.26.4.428">
+     <span class="citation">Rescorla (2000)</span></a> first trained two of the excitors (A and C) and two inhibitors (B and D)
+ to asymptote. Subsequently,
+   <span id="code_style">A</span> and <span id="code_style">B</span> are presented in a
+   compound and reinforced (AB+). The results showed the excitatory  <span id="code_style">A</span> changed
+    less than the inhibitory  <span id="code_style">B</span> when the compound
+    was reinforced. However, the fact that <span id="heidired">HeiDI</span> explicitly includes reciprocal
+    <span id="code_style">CS-US</span> and     <span id="code_style">US-CS</span>
+     associations implies that the impact of compound conditioning on the backwards
+     associations need to be considered: namely those
+those between the   <span id="code_style">US</span>  and   <span id="code_style">A</span> , and
+between   <span id="code_style">US</span>  and   <span id="code_style">B</span> .
+The design of the
+simulated data is summarised in <span id ="refTable">Table 1</span>.
+<span id="code_style">V<SUB>US-A</SUB></span>
+ will be equal to <span id="code_style">&alpha; A</span> by the end of the first stage of
+ training, but <span id="code_style">V<SUB>US-B</SUB></span> will be 0, because  <span id="code_style">B</span>
+  has not been paired with the  <span id="code_style">US</span> .
+  Thus, during pairings of  <span id="code_style">AB</span>  with the  <span id="code_style">US</span> ,
+  <span id="code_style">V<SUB>US-A</SUB></span> will not change (the asymptote for <span id="code_style">V<SUB>US-A</SUB></span> will
+   have been reached as a result of the first stage of training), however <span id="code_style">V<SUB>US-B</SUB></span> can
+   increase (to the asymptote set by &alpha; B). As a result of this, <span id="code_style">V<SUB>COMB-BC</SUB></span>
+   will be higher than <span id="code_style">V<SUB>COMB-AD</SUB></span>.
+   The key to this analysis is that, despite the used of a pooled error term in Equations 1 and 2, associations
+    from the <span id="code_style">US</span>  to <span id="code_style">A</span>
+    and to <span id="code_style">B</span>  will be formed independently when there is a single <span id="code_style">US</span>.
+
+
+</p>
+
+
+
+<p>
+  Thus <span id="heidired">HeiDI</span> is able to reconcile the use of a pooled error terms with the observation
+  that stimuli with different associative histories appear to display different amounts of associative change when they are trained together.
+
+</p>
+
+
+
+
+
+<p> <span id ="refTable">Table 1</span> </p>
+<table style="margin-left:auto;margin-right:auto;", class="redTable">
+<thead>
+<tr>
+<th>Previous history</th>
+<th>Conditioning</th>
+<th>Test</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td>Asymptote set by &beta; value</td>
+<td></td>
+<td></td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>A+</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C+</td>
+<td>AB+</td>
+<td>AD?</td>
+</tr>
+<tr>
+<td>B-</td>
+<td></td>
+<td>BC?</td>
+</tr>
+<tr>
+<td>D-</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+<p> <span id="code_style">Panel A</span>  depicts the development of <span id="code_style">V<SUB>A-US</SUB></span> ,
+  <span id="code_style">V<SUB>US-A</SUB></span> , <span id="code_style">V<SUB>B-US</SUB></span>  and
+  <span id="code_style">V<SUB>US-B</SUB></span>  during the conditioning phase (AB+). <span id="code_style">V<SUB>A-US</SUB></span>
+   starts at the selected  <span id="code_style">&beta;</span>  value,
+  <span id="code_style">V<SUB>US-A</SUB></span>  at the selected  <span id="code_style">&alpha;</span>  value, while <span id="code_style">V<SUB>B-US</SUB></span>
+   starts at the negative value of
+  the selected <span id="code_style">&beta;</span>   (-&beta;), with <span id="code_style">V<SUB>US-B</SUB></span>  at 0.
+</p>
+
+
+<p><span id="code_style">Panel B</span> depicts the development of <span id="code_style">V<SUB>AD-US</SUB></span>,
+   <span id="code_style">V<SUB>US-AD</SUB></span>, <span id="code_style">V<SUB>BC-US</SUB></span> and
+  <span id="code_style">V<SUB>US-BC</SUB></span> during the compound conditioning phase.
+Here it is assumed that <span id="code_style">V<SUB>C-US</SUB></span>  starts at the selected
+ <span id="code_style">β</span> value, <span id="code_style">V<SUB>US-C</SUB></span> at the selected  <span id="code_style">&alpha;</span> value,
+   while <span id="code_style">V<SUB>D-US</SUB></span> starts at the negative value of the selected  <span id="code_style">&beta;</span>(-&beta;),
+     <span id="code_style">with <span id="code_style">V<SUB>US-D</SUB></span> at 0.
+  selected <span id="code_style">&beta;  (-&beta;) and <span id="code_style">V<SUB>US-B</SUB> at 0.
+</p>
+
+
+<p> <span id="code_style">Panel C</span>  depicts the distribution of
+   <span id="code_style">V<SUB>COMB-AD</SUB></span> and    <span id="code_style">V<SUB>COMB-BC</SUB></span>,
+   illustrating  unequal change
+  due to backwards associations.
+
+</p>
+
+<p> <span id="code_style">Panel D</span>  depicts the distribution of behaviour in CS and US-orientated behaviour (R<SUB>CS-AD</SUB>, R<SUB>CS-BC</SUB>,
+R<SUB>US-AD</SUB>,  R<SUB>US-BC</SUB>).
+</p>
+
+
+<h2>Functionality</h2>
+
+<h3>Simulations tab</h3>
+<span id="heidired">HeiDI</span>'s predictions can be explored using the three sliders.
+
+<h4>Sliders</h4>
+<ul>
+  <li> <span id="code_style">Number of trials</span> (range 1 - 100) - Sets the number of trials desired.
+    The slider only allows even numbers, as the simulations assume equal number of
+    <span id="code_style">A+</span> and <span id="code_style">AB-</span> trials. </li>
+  <li> <span id="code_style_greek">&alpha; A</span> (range 0.1 - 1) - Sets the perceived CS value for stimulus <span id="code_style">A</span>. </li>
+  <li> <span id="code_style_greek">&alpha; B</span> (range 0.1 - 1) - Sets the perceived CS value for the stimulus <span id="code_style">B</span>. </li>
+  <li> <span id="code_style_greek">&beta;</span> (range 0.1 - 1) - Sets the perceived value for the US. </li>
+</ul>
+<h4>Buttons</h4>
+<ul>
+  <li> <button type="button" name="Code">Code</button> button - Link to code  of a standalone version, in R,  on
+    <a href="https://github.com/ynnna89/modelling"><span class="link">github</span></a>.
+  </li>
+  <li>  <button type="button" name="Code">Download</button> button - downloads the <span id="code_style">csv</span> file generated in the simulation.
+  It corresponds to the same data that be visualised in the <b>Data</b> tab </li>
+</ul>
+
+<h3>Data tab</h3>
+
+<p> Every time sliders are adjusted, the simulation dataframe is re-created. This tab shows the data plotted in the figures. </p>
+
+
+
+
+<!-- #### -->
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-Heidi2020">
+<p>Honey, R. C., D. M. Dwyer, & Iliescu, A. F. (2020a). <a href="https://psycnet.apa.org/doiLanding?doi=10.1037%2Frev0000196">
+  <span class="citation">HeiDI: A model for Pavlovian learning and performance with reciprocal associations.</span></a>
+ <em>Psychological Review, 127</em>(5), 829–52. </p>
+ <p>Rescorla, R. A. (2000). <a href="https://psycnet.apa.org/doiLanding?doi=10.1037/0097-7403.26.4.428">
+   <span class="citation">Associative changes in excitors and inhibitors
+differ when they are conditioned in compound.</span></a>
+  <em>Journal of Experimental
+Psychology: Animal Behavior Processes, 26</em>, 428-438. </p>
+</div>
+</div>
+
+</body>
+</html>

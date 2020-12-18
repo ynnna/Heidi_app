@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="style_tab_info.css">
+</head>
+<body>
+
+<h2>Blocking and downshift unblocking</h2>
+
+
+<p> These simulations accompany the ones summarrised in
+<a href="https://psycnet.apa.org/doiLanding?doi=10.1037%2Frev0000196"><span class="citation">Honey,
+   Dwyer and Iliescu (2020a;</span></a> pp 843-844; Figure 8).
+
+  One of the primary motivations for the Rescorla-Wagner
+   model was seeking to account for the way in which training cues in
+    combination impacted on learning. Take the case of blocking: first <span id="code_style">A</span>
+    &#8594; <span id="code_style">US</span>
+  and then  <span id="code_style">AB</span>
+    &#8594; <span id="code_style">US</span>  (see <span id ="refTable">Table 1</span>),
+     where little learning is apparent to stimulus <span id="code_style">B</span> .
+
+
+Rescorla-Wagner is able to explain this absence of learning about
+ <span id="code_style">B</span>. The use of a pooled error term for the change in
+  associative strength for a compound stimulus <span id="code_style">AB</span>
+ leads to no learning about no learning about <span id="code_style">B</span> in Phase 2, given
+  <span id="code_style">A</span> had reached asymptote
+  by the end of Phase 1.
+  In addition, increasing the number of <span id="code_style">USs</span> between phase 1 (e.g., A  &#8594; US<SUB>1</SUB>)
+   and phase 2 (AB  &#8594; US<SUB>1</SUB>  &#8594; US<SUB>2</SUB>)
+  results in responding to <span id="code_style">B</span>  that is consistent
+  with the model, as the increase in the number of
+<span id="code_style">USs</span>  in Phase 2 means <span id="code_style">A</span>
+  no longer perfectly predicts the outcome and so the pooled error term is
+  positive which allows <span id="code_style">B</span>  to gain associative strength.
+  The problematic finding, for the Rescorla-Wagner model and others, is that
+  that decreasing the  number of <span id="code_style">USs</span> (downshift unblocking; i.e.,
+  A  &#8594; US<SUB>1</SUB> &#8594; US<SUB>2</SUB> and then
+  AB  &#8594; US<SUB>1</SUB>)
+   can also lead to learning about <span id="code_style">B</span>.
+</p>
+
+
+<p>
+Unblocking (learning and responding to B) by a reduction in the <span id="code_style">USs</span>,
+ has typically been taken as evidence for attentional changes
+ <a href="https://www.researchgate.net/publication/281971651_Attention_and_Associative_Learning_From_Brain_to_Behaviour"><span class="citation">
+  (Pearce  & Mackintosh,  2010)</span></a>.
+However, a speculative account for this
+unblocking effect can be derived from  <span id="heidired">HeiDI</span>
+that does not require an assumption of attentional changes. The basis for
+this speculative account is that the removal of <span id="code_style"> US<SUB>2</SUB></span>  allows
+a within-compound  <span id="code_style">B</span> - <span id="code_style">A</span>
+association to form more effectively
+during downshift unblocking than during standard blocking.
+This happens because the <span id="code_style"> US<SUB>2</SUB></span> - <span id="code_style"> A</span>
+association is no
+longer activated and thus the combined error term for  <span id="code_style"> A</span>
+as the target of associations is positive. In turn, this <span id="code_style">B</span> - <span id="code_style">A</span>
+ association allows <span id="code_style"> A</span>  to borrow the associative properties of <span id="code_style"> A</span> .
+The design of the simulated data is summarrised in <span id ="refTable">Table 1</span>.
+
+ </p>
+
+
+
+
+
+<p> <span id ="refTable" >Table 1</span>
+<table style="margin-left:auto;margin-right:auto; text-align:center", class="redTable">
+<thead style="margin-left:auto;margin-right:auto; text-align:center">
+<tr>
+<th>Group</th>
+<th>Phase 1</th>
+<th>Phase 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blocking </td>
+<td>A &#8594; US<SUB>1</SUB> &#8594; US<SUB>2</SUB> </td>
+<td>AB &#8594; US<SUB>1</SUB> &#8594; US<SUB>2</SUB> </td>
+</tr>
+<tr>
+<td>Unblocking </td>
+<td>A &#8594; US<SUB>1</SUB> &#8594; US<SUB>2</SUB> </td>
+<td>AB &#8594; US<SUB>1</SUB></td>
+<tr>
+</tr>
+</tbody>
+</table>
+
+</p>
+
+<p> <span id="code_style">Panels A - B</span> depict the development of the associations with <span id="code_style">US<SUB>1</SUB></span>,
+    V<SUB>A-US1</SUB>, V<SUB>US1-A</SUB>, V<SUB>B-US1</SUB> and
+  V<SUB>US1-B</SUB> during both phases (the transition is indicated by the grey background).
+</p>
+
+<p> <span id="code_style">Panels C - D</span> depict the development of the associations with <span id="code_style">US<SUB>2</SUB></span>,
+    V<SUB>A-US2</SUB>, V<SUB>US2-A</SUB>, V<SUB>B-US2</SUB> and
+  V<SUB>US2-B</SUB> during both phases (the transition is indicated by the grey background).
+</p>
+
+<p> <span id="code_style">Panels E - F</span> depict the development of the associations between <span id="code_style">A</span> and ,
+<span id="code_style">B</span>. It illustrates  <span id="heidired">HeiDI</span>'s predictions for the  removal of
+<span id="code_style">US<SUB>2</SUB></span>, allowing the formation of intra-compound
+associations between  <span id="code_style">B</span> and <span id="code_style">A</span>
+(V<SUB>B-A</SUB>).
+
+</p>
+
+
+
+
+<h2>Functionality</h2>
+
+<h3>Simulations tab</h3>
+<span id="heidired">HeiDI</span>'s predictions can be explored using the four sliders.
+
+<h4>Sliders</h4>
+<ul>
+  <li> <span id="code_style">Number of trials</span> (range 1 - 100) - Sets the number of trials desired.
+    The slider only allows even numbers, as the simulations assume equal number of
+    <span id="code_style">A+</span> and <span id="code_style">AB-</span> trials. </li>
+  <li> <span id="code_style_greek">&alpha; A</span> (range 0.1 - 1) - Sets the perceived CS value for stimulus <span id="code_style">A</span>. </li>
+  <li> <span id="code_style_greek">&alpha; B</span> (range 0.1 - 1) - Sets the perceived CS value for the stimulus <span id="code_style">B</span>. </li>
+  <li> <span id="code_style_greek">&beta; 1</span> (range 0.1 - 1) - Sets the perceived value for the <span id="code_style">US<SUB>1</SUB></span>.</li>
+  <li> <span id="code_style_greek">&beta; 2</span> (range 0.1 - 1) - Sets the perceived value for the <span id="code_style">US<SUB>2</SUB></span>.
+  Note that <span id="code_style">US<SUB>2</SUB></span> is set at 0 for Phase 2 for the (downshift) unblocking group.</li>
+</ul>
+<h4>Buttons</h4>
+<ul>
+  <li> <button type="button" name="Code">Code</button> button - Link to code  of a standalone version, in R,  on
+    <a href="https://github.com/ynnna89/modelling"><span class="link">github</span></a>.
+  </li>
+  <li>  <button type="button" name="Code">Download</button> button - downloads the <span id="code_style">csv</span> file generated in the simulation.
+  It corresponds to the same data that be visualised in the <b>Data</b> tab </li>
+</ul>
+
+<h3>Data tab</h3>
+
+<p> Every time sliders are adjusted, the simulation dataframe is re-created. This tab shows the data plotted in the figures. </p>
+
+
+
+
+<!-- #### -->
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-Heidi2020">
+<p>Honey, R. C., D. M. Dwyer, & Iliescu, A. F. (2020a). <a href="https://psycnet.apa.org/doiLanding?doi=10.1037%2Frev0000196">
+  <span class="citation">HeiDI: A model for Pavlovian learning and performance with reciprocal associations.</span></a>
+<em>Psychological Review, 127</em>(5), 829–52. </p>
+
+<p>Pearce, J. M., & Mackintosh, N. J. (2010). <a href="https://www.researchgate.net/publication/281971651_Attention_and_Associative_Learning_From_Brain_to_Behaviour">
+ <span class="citation"> Two theories of attention: A
+review and possible integration. In C. Mitchell & M. E. Le Pelley (Eds.)</a>
+<em>Attention and associative learning: From brain to behaviour</em>(5),
+(pp. 11–39). Oxford, UK: Oxford University Press. </p>
+
+</div>
+</div>
+
+</body>
+</html>

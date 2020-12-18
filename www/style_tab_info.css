@@ -1,0 +1,127 @@
+.author,.title{
+    display: none;
+}
+
+body{ /* Normal  */
+ font-size: 14px;
+ text-align: justify;
+ padding: 25px 0px 0px 25px;
+  }
+td {  /* Table  */
+  font-size: 10px;
+}
+h1.title {
+  font-family: Garamond, serif;
+  text-align: center;
+  font-size: 22px;
+  color: #d73925; /* HeiDI red */
+}
+h1 { /* Header 1 */
+  font-family: Garamond, serif;
+  text-align: center;
+  font-size: 20px;
+  color: #d73925; /* HeiDI red */
+}
+h2 { /* Header 2 */
+  font-size: 18px;
+  font-family: Garamond, serif;
+  color: #d73925; /* HeiDI red */
+}
+h3 { /* Header 3 */
+  font-size: 16px;
+  font-family: Garamond, serif;
+  color:#d73925; /* HeiDI red */
+}
+h4 { /* Header 4 */
+  font-size: 14px;
+  font-family: Garamond, serif;
+  font-weight: bold;
+
+}
+
+code.r{ /* Code block */
+    font-size: 14px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 16px;
+}
+
+#heidired {
+  color:#d73925; /* HeiDI red */
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#code_style {
+  font-family: Garamond, serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #ebebeb; /* grey*/
+  padding: 0px 4px 0px 4px; /* top, right, bottom, left*/
+}
+#code_style_greek {
+  font-family: Garamond, serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #ebebeb; /* grey*/
+  padding: 0px 4px 0px 4px; /* top, right, bottom, left*/
+  font-weight: bold;
+}
+#refTable {
+  color:#d73925; /* HeiDI red */
+}
+
+p {
+font-family: Garamond, serif;
+font-size: 14px;
+line-height: 1.6;
+}
+
+table.redTable {
+  text-align: center;
+  width: 70%;
+  text-align: center;
+  border-collapse: collapse;
+  padding: 10px 6px 20px 6px; /* top, right, bottom, left*/
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #AAAAAA;
+
+}
+table.redTable tbody td {
+  font-size: 13px;
+}
+table.redTable thead {
+  text-align: center;
+  background: #D73925;
+  background: -moz-linear-gradient(top, #e16a5b 0%, #db4c3a 66%, #D73925 100%);
+  background: -webkit-linear-gradient(top, #e16a5b 0%, #db4c3a 66%, #D73925 100%);
+  background: linear-gradient(to bottom, #e16a5b 0%, #db4c3a 66%, #D73925 100%);
+}
+table.redTable thead th {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D73925;
+}
+table.redTable thead th:first-child {
+  border-left: none;
+}
+
+
+
+table.redTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #636363;
+  background: #F7F7F7;
+  background: -moz-linear-gradient(top, #f9f9f9 0%, #f7f7f7 66%, #F7F7F7 100%);
+  background: -webkit-linear-gradient(top, #f9f9f9 0%, #f7f7f7 66%, #F7F7F7 100%);
+  background: linear-gradient(to bottom, #f9f9f9 0%, #f7f7f7 66%, #F7F7F7 100%);
+  border-top: 2px solid #444444;
+}
+table.redTable tfoot td {
+  font-size: 14px;
+}
