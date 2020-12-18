@@ -9,7 +9,7 @@ fluidPage(
        fluidPage(
            column(width = 4, align = "center",
              box(width= 12,
-                     sliderInput("trial_no_extinct", 'Number of trials', min= 1, max=100, step = 2,
+                     sliderInput("trial_no_extinct", 'Number of trials', min= 2, max=100, step = 2,
                                  value= 20),
                      helpText("Use the slider to choose a value for α (CS value)")),
              box(width= 12,
